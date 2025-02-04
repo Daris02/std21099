@@ -22,7 +22,7 @@ public class PingController {
   }
   
   @GetMapping("/hello")
-  public String helloWorld() {
-    return "hello world";
+  public String hello() {
+    return "hello - STD21099";
   }
 }
